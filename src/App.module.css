@@ -1,0 +1,22 @@
+.box {
+  display: grid;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  place-items: center;
+}
+.btn {
+  color: #333;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  border: none;
+  background: #a5befd;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #608af5;
+}
